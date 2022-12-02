@@ -22,8 +22,8 @@ from pydownloader.downloader import Downloader
 import shorturl
 import xdlink
 
-tl_admin_users = ['YosmelGarcia','mmartinez_23','YasielCL','GaviLocaRX990','EL_Wizard'] #
-godlist = ['YosmelGarcia','LevAndrade93','mmartinez_23','YasielCL','GaviLocaRX990','EL_Wizard'] #
+tl_admin_users = ['YosmelGarcia'] #
+godlist = ['YosmelGarcia'] #
 
 async def get_root(username):
     if os.path.isdir(config.ROOT_PATH+username)==False:
